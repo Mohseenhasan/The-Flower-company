@@ -1,0 +1,879 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,500;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flower-nav{
+
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+}
+
+.nav-1{
+
+    width: 100%;
+    display: flex;
+    color: #1c1b1b;
+}
+
+.nav-1 h5{
+
+    margin-top: 25px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.nav-1 h3{
+
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 500px;
+    font-weight: 400;
+    font-size: 17px;
+    /* border: 1px solid red; */
+
+}
+
+.nav-1 ul{
+
+    /* border: 1px solid red; */
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 13px;
+    color: #1c1b1b;
+
+}
+
+.nav-2{
+
+    width: 100%;
+    display: flex;
+    color: #1c1b1b;
+}
+
+.nav-2 ul{
+
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1c1b1b;
+
+}
+
+.nav-2 ul li a{
+
+    text-decoration: none;
+    color: #1c1b1b;
+    
+}
+
+.nav-2 ul li a:hover{
+
+    border-bottom: 1px solid  #1c1b1b;
+
+}
+
+
+/* <!-- flower image div 2 --> */
+
+.flower-img{
+
+    width: 100%;
+    height: 200vh;
+    background-image: url(./big\ image\ div\ 2.webp);
+    box-shadow: -8px -70px 297px 149px rgba(73, 71, 71, 0.75) inset;
+    -webkit-box-shadow: -8px -70px 297px 149px rgba(68, 66, 66, 0.75) inset;
+    -moz-box-shadow: -8px -70px 297px 149px rgba(88, 82, 82, 0.75) inset;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+
+    
+}
+
+.flower-img h3{
+
+    /* border: 1px solid red; */
+    padding-top: 1050px;
+    font-size: 25px;   
+    color: white; 
+}
+
+.flower-img button{
+
+    width: 170px;
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.flower-img .whats-app{
+
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #35cb5e;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #d3d3d3;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+
+}
+
+.bucket{
+
+    width: 10%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 5px;
+    top: 300px;
+
+}
+
+.box-aa{
+
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(169, 162, 162);
+    border-radius: 200px;
+    box-shadow: 0 0 6px #aa9e9ee6;
+
+}
+
+.text-aa{
+
+    color: rgb(184, 176, 176);
+    font-size: 13px;
+}
+
+
+/* <!-- div 3 4-box flower --> */
+
+.best-sellers{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.best-1{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+.best-1 ul{
+
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 25px;
+    margin-top: 80px; 
+    /* border: 1px solid red; */
+
+}
+
+.best-1 ul li a{
+
+    color: #1c1b1b;
+    text-decoration: none;
+    
+}
+
+.best-2{
+
+    width: 100%;
+    height: 70vh;    
+    display: flex;
+    align-items:center ;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 1px solid red;    */
+
+}
+
+.box-a{
+
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 60vh;
+    position: relative;
+}
+
+.box-a1{
+
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: gray;
+    /* border: 1px solid red; */
+}
+
+.box-a img{
+
+    width: 100%;    
+}
+
+.box-a h4{
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-a h5{
+
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+.box-b{
+
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 60vh;
+    position: relative;
+}
+
+.box-b1{
+
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: gray;
+    /* border: 1px solid red; */
+}
+
+.box-b img{
+
+    width: 100%;
+}
+
+.box-b h4{
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-b h5{
+
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+.box-c{
+
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 60vh;
+    position: relative;
+}
+
+.box-c1{
+
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: gray;
+    /* border: 1px solid red; */
+}
+
+.box-c img{
+
+    width: 100%;
+}
+
+.box-c h4{
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-c h5{
+
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+.box-d{
+
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 60vh;
+    position: relative;
+}
+
+.box-d1{
+
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: gray;
+    /* border: 1px solid red; */
+}
+
+.box-d img{
+
+    width: 100%;
+}
+
+.box-d h4{
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-d h5{
+
+    margin-top: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+/* <!-- CLASSIC CUBO DIV-4 --> */
+
+.classic{
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.box-1{
+
+    width: 33.3%;
+    text-align: center;
+    position: relative;  
+    /* border: 1px solid red; */
+}
+
+.img-div{
+    width: 450px;
+    height: 500px;   
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+     
+}
+
+
+.box-1 p{
+    position: relative;
+    z-index: 2;
+}
+
+.box-1 button{
+    position: relative;
+    z-index: 2;
+}
+
+
+.img-div img{
+  width: 450px;
+  position: relative;
+  z-index: 1; 
+
+}
+
+
+.img-div img:hover {
+    transition: all linear 8s;
+    transform: scale(1.5);
+ 
+}
+
+.box-1 p{
+
+    font-size: 25px;
+    color: white;
+    margin-top: 12.5rem;
+}
+
+.box-1 button{
+
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-top: 30px;
+        
+}
+
+
+.box-2{
+
+    width: 33.3%;
+    text-align: center;
+    position: relative;   
+    /* border: 1px solid red; */
+}
+
+.img-div2{
+    width: 450px;
+    height: 500px;    
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+ 
+}
+
+
+.box-2 p{
+    position: relative;
+    z-index: 2;
+}
+
+.box-2 button{
+    position: relative;
+    z-index: 2;
+}
+
+
+.img-div2 img{
+  width: 450px;
+  position: relative;
+  z-index: 1; 
+
+}
+
+
+.img-div2 img:hover {
+    transition: all linear 5s;
+    transform: scale(1.2);
+ 
+}
+
+.box-2 p{
+
+    font-size: 25px;
+    color: white;
+    margin-top: 12rem;
+}
+
+.box-2 button{
+
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-top: 30px;
+        
+}
+
+.box-3{
+
+    width: 33.3%;
+    text-align: center;
+    position: relative;   
+    /* border: 1px solid red; */
+}
+
+.img-div3{
+    width: 450px;
+    height: 500px;  
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+ 
+}
+
+
+.box-3 p{
+    position: relative;
+    z-index: 2;
+}
+
+.box-3 button{
+    position: relative;
+    z-index: 2;
+}
+
+
+.img-div3 img{
+  width: 450px;
+  position: relative;
+  z-index: 1; 
+
+}
+
+
+.img-div3 img:hover {
+    transition: all linear 5s;
+    transform: scale(1.2);
+ 
+}
+
+.box-3 p{
+
+    font-size: 25px;
+    color: white;
+    margin-top: 12rem;
+}
+
+.box-3 button{
+
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-top: 30px;
+        
+}
+
+
+
+/* <!-- The flower company tale div-5--> */
+
+.flower-company{
+
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid red; */
+
+}
+
+.flower-1{
+
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+
+}
+
+.flower-img-1{
+
+    width: 50%;
+    /* border: 1px solid red; */
+
+} 
+
+.flower-img-1 img{
+
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.flower-txt{
+
+    width: 50%;
+    /* border: 1px solid red; */
+    
+
+}
+
+.flower-txt h3{
+
+    margin-left: 10px;
+    margin-top: 15rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #1c1b1b;
+}
+
+
+.flower-txt p{
+
+    margin-left: 10px;
+    margin-top: 30px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1c1b1b;
+}
+
+.about{
+
+    width: 100%;
+    /* border: 1px solid red;  */
+    display: flex; 
+    justify-content: center;
+    text-align: center;  
+}
+
+.about ul{
+
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 50px;
+    color: #1c1b1b;
+}
+
+/* <!-- Featured products --> */
+
+.featured{
+
+    width: 100%;
+    height: 130vh;
+    /* border: 1px solid red;  */
+
+}
+
+.featured h3{
+
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 80px;
+    color: #1c1b1b;
+    /* border: 1px solid red;  */
+
+}
+
+.featured-sec{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    /* border: 1px solid red;  */
+
+}
+
+.featured-img-1{
+
+    width: 50%;
+    /* border: 1px solid red;  */
+}
+
+.featured-img-1 img{
+
+    width: 50%;
+    height: 35rem;
+    margin-left: 20rem;
+}
+
+.featured-img-2{
+
+    width: 50%;
+    /* border: 1px solid red;  */
+}
+
+.featured-img-2 img{
+
+    width: 35%;
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+
+.featured-img-2 h4{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.featured-img-2 h5{
+
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 400;   
+
+}
+
+.featured-img-2 button{
+
+    width: 35%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 65px;
+    border: none;
+    background-color: #ebbae0;
+    letter-spacing: 3px;
+}
+
+.featured-img-2 hr{
+
+    margin-top: 190px;
+}
+
+/* <!-- Resources-connect footer--> */
+
+.footer{
+
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    /* border: 1px solid red;  */
+
+}
+
+.resources{
+
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.resources p{
+
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+.resources ul{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.resources ul li{
+
+    margin-top: 15px;
+    font-size: 15px;
+    color: gray;
+}
+
+.connect{
+
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.connect h4{
+
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.connect p{
+
+    margin-left: 70px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+.connect ul{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+        
+}
+
+.connect ul li{
+
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+/* last div */
+
+.the-flower-company{
+
+    width: 100%;
+    height: 20vh;
+}
+
+.the-flower-company h5{
+
+    margin-left: 70px;
+    margin-top: 120px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.the-flower-company h6{
+
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: gray;
+        
+}
+
+
+
+
+
+
+
+
